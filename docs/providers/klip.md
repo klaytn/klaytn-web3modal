@@ -1,4 +1,4 @@
-# Kaikas
+# Klip Wallet
 
 1. Install Provider Package
 
@@ -13,8 +13,8 @@ yarn add @klaytn/klip-web3-provider
 ```typescript
 import { KlipWeb3Provider } from "@klaytn/klip-web3-provider"
 const providerOptions = {
-    kaikas: {
-        package: KaikasWeb3Provider // required
+    klip: {
+        package: KlipWeb3Provider // required
         options: {
             bappName: "web3Modal Example App", //required
             rpcUrl: "RPC_URL" //required
