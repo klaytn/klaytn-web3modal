@@ -37,7 +37,7 @@ import BitkeepLogo from "../logos/bitkeepwallet.png";
 // @ts-ignore
 import StarzWalletLogo from "../logos/starzwallet.svg";
 // @ts-ignore
-import KaikasLogo from "../logos/kaikas.png";
+import KaiaLogo from "../logos/kaiawallet.png";
 // @ts-ignore
 import KlipLogo from "../logos/klip.png";
 
@@ -230,8 +230,8 @@ export const STARZWALLET: IProviderInfo = {
 
 export const KAIKAS: IProviderInfo = {
   id: "kaikas",
-  name: "Kaikas",
-  logo: KaikasLogo,
+  name: "kaia wallet",
+  logo: KaiaLogo,
   type: "injected",
   check: "isKaikas"
 };
