@@ -229,7 +229,7 @@ export const STARZWALLET: IProviderInfo = {
 };
 
 export const KAIKAS: IProviderInfo = {
-  id: "kaia",
+  id: "kaikas",
   name: "kaia wallet",
   logo: KaiaLogo,
   type: "injected",
